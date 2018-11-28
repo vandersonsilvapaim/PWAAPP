@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "build:prod": "ng build --prod",
-    "up:prod": "http-server -p 80 -c-1 dist/pwa-app",
+    "up": "http-server -p 80 -c-1 dist/pwa-app",
+    "up:prod": "npm run build:prod && npm run up",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
