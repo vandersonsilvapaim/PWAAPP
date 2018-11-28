@@ -12,7 +12,7 @@ const routes: Routes = [ { path: 'app-shell-path', component: AppShellComponent 
   imports: [
     AppModule,
     ServerModule,
-    RouterModule.forRoot(routes),
+    RouterModule.forRoot(routes, { useHash: true }),
   ],
   bootstrap: [AppComponent],
   declarations: [AppShellComponent],
