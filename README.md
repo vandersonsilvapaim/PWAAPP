@@ -33,5 +33,5 @@ ngh
 
 npm ngh --dir=dist/pwa-app
 
-
+ng generate component home
 
